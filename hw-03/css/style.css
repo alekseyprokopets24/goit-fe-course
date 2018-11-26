@@ -4,7 +4,6 @@ html{
 *{
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
     font-family: 'Playfair Display', serif;
 }
 body{
@@ -27,19 +26,33 @@ header{
 .navigration li{
     display: inline-block ;
     text-transform: uppercase;
-    margin: 0 60px;
+    
 }
-
-
-.navigration a{
+.link_1{
+    width: 192px;
+}
+.link_2{
+    width: 208px;
+}
+.link_3{
+    width: 164px;
+}
+.link_4{
+    width: 172px;
+}
+a{
     text-decoration: none;
-    color: inherit;
 }
-
+.lane:not(:last-child){
+    padding-bottom: 140px;
+}
 .container{
     margin: 0 auto;
     width: 900px;
     font-size: 0px;
+}
+.lines{
+    margin-bottom: 140px;
 }
 .card{
     max-width: 420px;
@@ -48,9 +61,7 @@ header{
     
     text-align: left;
 }
-.first-lane, .second-lane{
-    margin-bottom: 140px;
-}
+
 img{
     margin-bottom: 25px;
 }
@@ -66,9 +77,11 @@ img{
     font-size: 14px;
     margin-bottom: 28px;
 }
-h3{
+
+.title{
     font-size: 30px;
     margin-bottom: 40px;
+    font-weight: 400;
 }
 .description{
     font-size: 14px;
@@ -84,8 +97,7 @@ footer{
 }
 .button{
     display: inline-block;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px 0;
     width: 164px;
     background: #ffffff;
     border: 1px solid #626262;
