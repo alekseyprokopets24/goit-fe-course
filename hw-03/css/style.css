@@ -25,26 +25,18 @@ header{
 }
 .navigration li{
     display: inline-block ;
-    text-transform: uppercase;
 }
-.link_1{
-    width: 192px;
+.link{
+    width: 184px;
 }
-.link_2{
-    width: 208px;
-}
-.link_3{
-    width: 164px;
-}
-.link_4{
-    width: 172px;
-}
+
 .navigration a{
     text-decoration: none;
     color: #626262;
+    text-transform: uppercase;
 }
 .lane:not(:last-child){
-    padding-bottom: 140px;
+    margin-bottom: 140px;
 }
 .container{
     margin: 0 auto;
@@ -95,7 +87,6 @@ footer{
     text-align: center;
 }
 .button{
-    display: inline-block;
     padding: 16px 0;
     width: 164px;
     background: #ffffff;
