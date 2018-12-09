@@ -1,18 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-
 .clearfix::after{
     display: table;
     content: '';
     clear: both;
 }
 body{
-    letter-spacing: -0.02em;
-    
+    margin: 0;
+    padding: 0;
 }
 .wrapper{
     width: 1110px;
@@ -23,9 +16,15 @@ main{
     padding: 54px 0;
     
 }
+section{
+    margin-bottom: 104px;
+}
+section:last-child{
+    margin-bottom: 0px;
+}
 .header{
     padding-top: 38px;
-    text-transform: uppercase;
+    
     padding-bottom: 54px;
 
 }
@@ -35,6 +34,7 @@ main{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #605e5e;
+    text-transform: uppercase;
 }
 .logo::first-letter{
     font-weight: 900;
@@ -43,7 +43,8 @@ main{
 .site-navigation{
     float: right;
     width: 530px;
-    padding-top: 8px;
+    padding: 10px 0;
+    
 }
 a{
     text-decoration: none;
@@ -56,7 +57,8 @@ a{
     list-style: none;
     text-align: center;
     width: 86px;
-
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
 }
 
 .link a{
@@ -67,12 +69,9 @@ a{
 .link a:hover{
     color: #29c0a3;
 }
-.featured-products{
-    margin-bottom: 104px;
-    
-}
+
 .section-title{
-    line-height: 32px;
+  
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -81,7 +80,7 @@ a{
     text-transform: uppercase;
     letter-spacing: -1px;
     position: relative;
-    padding-bottom: 30px;
+    margin-bottom: 120px;
 }
 .section-title::after{
     content: '';
@@ -90,14 +89,16 @@ a{
     background: #1abc9c;
     position: absolute;
     transform: translateX(-50%);
-    bottom: 0;
+    bottom: -30px;
     left: 50%;
+    
 }
-.text-with-underline{
-   margin-bottom: 80px;
-}
-.line:not(:last-child){
+
+.line{
     margin-bottom: 30px;
+}
+.line:last-child{
+    margin-bottom: 0px;
 }
 img{
     display: block;
@@ -105,16 +106,16 @@ img{
 .item{
     max-width: 254px;
     float: left;
-    
-}
-.item:not(:last-child){
+    letter-spacing: -0.02em;
     margin-right: 30px;
 }
-.item-info{
+.item:last-child{
+    margin-right: 0px;
+}
+.item-product{
     color: #fff;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
-    
     background: #323232;
     text-transform: uppercase;
     font-size: 18px;
@@ -124,7 +125,7 @@ img{
     float: left;
     text-align: left;
     padding: 8px 0 8px 12px ;
-    
+    box-sizing: border-box;
 }
 .item-price{
     width: 54px;
@@ -139,11 +140,10 @@ img{
 .item:hover .item-price{
     background: #7fd9c7;
 }
-.item-width{
+.item-news{
     max-width: 350px;
     color: #555252;
     font-family: 'Open Sans', sans-serif;
-    
 }
 
 .img-news{
@@ -151,7 +151,7 @@ img{
 }
 
 h3{
-    
+    line-height: 26px;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 40px;
@@ -166,7 +166,6 @@ h3::after{
     float: left;
 }
 p{
-    
     font-size: 14px;    
     font-weight: 400;
     margin-bottom: 8px;
@@ -179,6 +178,9 @@ p{
     text-align: center;
     border: none;
     color: #f3fbf9;
-    padding: 16px 0;
+    padding: 18px 0;
     border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px; 
 }
