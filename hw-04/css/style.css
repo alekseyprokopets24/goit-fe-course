@@ -172,10 +172,8 @@ p{
     line-height: 26px;
 }
 .button{
-    float: left;
     background: #4ec6ab;
     width: 160px;
-    text-align: center;
     border: none;
     color: #f3fbf9;
     padding: 18px 0;
