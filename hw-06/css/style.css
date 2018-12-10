@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.logo{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.site-navigation{
+    width: 490px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+.link a:hover{
+    color: #f38181;
+}
+.link a:hover:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 23px;
+    height: 2px;
+    background: #f38181;
+    transform: translateX(-100%);
+}
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333333;
+}
+.cursive{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 24px;
+}
+.not-cursive{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.not-cursive::after{
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: #f38181;
+    top: 64px;
+}

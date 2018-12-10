@@ -173,26 +173,26 @@ img{
 }
 .overlay-img-1{
     position: absolute;
-    display: inline;
+    
     top: 80px;
     left: 34px;
 }
 .overlay-img-2{
     position: absolute;
-    display: inline;
+   
     top: 80px;
     left: 92px;
 }
 .overlay-img-3{
     position: absolute;
-    display: inline;
+    
     top: 80px;
     left: 150px;
 }
 
 .add-to-card{
     position: absolute;
-    display: inline;
+    
     top: 136px;
     left: 34px;
 }
