@@ -1,0 +1,260 @@
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    
+    
+}
+.header{
+    padding-top: 38px;
+    padding-bottom: 54px;
+    width: 1110px;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 30px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #605e5e;
+    text-transform: uppercase;
+}
+.logo::first-letter{
+    font-weight: 900;
+    color: #1abc9c;
+}
+.site-navigation{
+    float: right;
+    width: 530px;
+    padding: 10px 0;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.link{
+    font-size: 14px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    list-style: none;
+    text-align: center;
+    width: 86px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.link a{
+    text-decoration: none;
+    color: #0f0101;
+    
+}
+.link a:hover{
+    color: #29c0a3;
+}
+.section-title{
+    padding-top: 100px;
+    margin-bottom: 120px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #515151;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    position: relative;
+}
+.section-title::after{
+    content: '';
+    width: 164px;
+    height: 6px;
+    background: #1abc9c;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: -30px;
+    left: 50%;
+    
+}
+.new-collection{
+    background-color: #e9f0fd;
+    
+    
+}
+.card-line{
+    width: 1110px;
+    margin: 0 auto;
+}
+.item{
+    position: relative;
+    max-width: 254px;
+    float: left;
+    letter-spacing: -0.02em;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    background: #323232;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+}
+.item:last-child{
+    margin-right: 0px;
+}
+
+.item-name{
+    width: 200px;
+    float: left;
+    text-align: left;
+    padding: 8px 0 8px 12px ;
+    box-sizing: border-box;
+}
+.item-price{
+    width: 54px;
+    text-align: center;
+    float: right;
+    padding: 8px 0;
+    background-color: #8c8c8c;
+}
+.item:hover .item-name{
+    background: #1abc9c;
+}
+.item:hover .item-price{
+    background: #7fd9c7;
+}
+.card-line{
+    margin-bottom: 100px;
+}
+.footer{
+    background: #323232;
+    padding: 36px 0;
+    text-align: center;
+}
+.footer-span{
+    color: #fefefe;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.last-word{
+    color: #46bfa9;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 282px;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    box-sizing: border-box;
+}
+
+.item:hover .overlay{
+    opacity: 0.549;
+    
+}
+.overlay-images{
+    opacity: 0;
+}
+.item:hover .overlay-images{
+    opacity: 1;
+}
+.overlay-img-1{
+    position: absolute;
+    display: inline;
+    top: 80px;
+    left: 34px;
+}
+.overlay-img-2{
+    position: absolute;
+    display: inline;
+    top: 80px;
+    left: 92px;
+}
+.overlay-img-3{
+    position: absolute;
+    display: inline;
+    top: 80px;
+    left: 150px;
+}
+
+.add-to-card{
+    position: absolute;
+    display: inline;
+    top: 136px;
+    left: 34px;
+}
+.add-to-card:hover{
+    background: #323232;
+}
+.overlay-img-hover:hover{
+    background: #1abc9c;
+    
+}
+.section-with-slider{
+    background-image: url(../img/image1.png);
+    background-size: cover;
+    height: 600px;
+    
+    
+}
+.slider{
+    height: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
+}
+.slider-text{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 186px;
+    letter-spacing: -0.02em;
+}
+.slider-title{
+    font-weight: 900;
+    font-size: 60px;
+    top: 218px;
+}
+.slider-description{
+    font-weight: 300;
+    font-size: 24px;
+    top: 296px;
+}
+
+.slider-control{
+    background-color: rgb(26, 188, 156);
+    width: 104px;
+    height: 104px;
+    border: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider-control-prev{
+    left: 0;
+}
+.slider-control-next{
+    right: 0;
+}
+  
+
+
+  
