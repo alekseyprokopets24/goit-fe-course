@@ -173,8 +173,6 @@ img{
     padding: 12px;
     border: 1px solid white;
     background: none;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 .overlay-img-1{
     position: absolute;
