@@ -33,7 +33,6 @@ body{
     float: right;
     width: 530px;
     padding: 10px 0;
-    
 }
 a{
     text-decoration: none;
@@ -41,14 +40,16 @@ a{
 img{
     display: block;
 }
+.site-navigation li{
+    float: left;
+    width: 86px;
+    text-align: center;
+}
 .link{
     font-size: 14px;
-    float: left;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     list-style: none;
-    text-align: center;
-    width: 86px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     text-decoration: none;
@@ -59,8 +60,8 @@ img{
 .link:hover{
     color: #29c0a3;
 }
+
 .section-title{
-    padding-top: 100px;
     margin-bottom: 120px;
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
@@ -84,8 +85,7 @@ img{
 }
 .new-collection{
     background-color: #e9f0fd;
-    padding-bottom: 100px;
-    
+    padding: 100px 0;
 }
 .card-line{
     
@@ -143,6 +143,7 @@ img{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     display: inline;
+    line-height: 1.5;
 }
 .last-word{
     color: #46bfa9;
@@ -161,42 +162,43 @@ img{
     opacity: 0.549;
     
 }
+.add-to-card-text{
+    width: 104px;
+    line-height: 46px;
+    float: right;
+    text-align: left;
+}
 
 .overlay-images{
     opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 .item:hover .overlay-images{
     opacity: 1;
 }
 .overlay-img{
-    padding: 12px;
     border: 1px solid white;
     background: none;
+
 }
-.overlay-img-1{
-    position: absolute;
-    top: 80px;
-    left: 34px;
+.small-button-img{
+    margin-right: 2px;
+    padding: 12px;
 }
-.overlay-img-2{
-    position: absolute;
-    top: 80px;
-    left: 92px;
+.small-button-img:nth-child(3n) {
+    margin-right: 0px;
 }
-.overlay-img-3{
-    position: absolute;
-    top: 80px;
-    left: 150px;
+.small-buttons{
+    margin-bottom: 6px;
 }
 
 .add-to-card{
-    position: absolute;
-    display: flex;
-    align-items: center;
+    padding: 0px;
     width: 164px;
-    top: 136px;
-    left: 34px;
     background: #323232;
     border: 1px solid white;
     text-transform: uppercase;
@@ -204,10 +206,12 @@ img{
     letter-spacing: -0.02em;
     font-size: 14px;
     color: #fff;
-    padding: 10px;
+    max-height: 48px;
+    box-sizing: border-box;
 }
 .add-to-card-img{
-    padding-right: 18px;
+    float: left;
+    padding: 10px 20px 10px 10px;
 }
 .overlay-img:hover{
     background: #1abc9c;
@@ -227,7 +231,6 @@ img{
     position: relative;
 }
 .slider-text-container{
-    width: 890px;
     position: absolute;
     top: 240px;
     left: 186px;
@@ -260,10 +263,11 @@ img{
     position: absolute;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
     top: 50%;
     transform: translateY(-50%); 
+}
+.img-in-control{
+    padding: 0 40px;
 }
 .slider-control:hover{
     opacity: 1;
