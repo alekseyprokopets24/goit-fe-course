@@ -182,12 +182,7 @@ input, .your-message{
     font-size: 14px;
     height: 52px;
 }
-input:invalid{
-    border: 2px solied red;
-}
-input:valid{
-    border: 2px solied green;
-}
+
 input::placeholder, .your-message::placeholder{
     text-transform: uppercase;
 }
