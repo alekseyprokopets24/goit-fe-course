@@ -1,3 +1,31 @@
+@font-face{
+    font-family: "aleo";
+    src: url("../fonts/aleo-v1-latin-italic.woff") format("woff"),
+         url("../fonts/aleo-v1-latin-italic.woff2") format("woff2");
+         font-style: italic;
+}
+@font-face{
+    font-family: "charm";
+    src: url("../fonts/charm-v3-latin-regular.woff") format("woff"),
+         url("../fonts/charm-v3-latin-regular.woff2") format("woff2");
+}
+@font-face{
+    font-family: "montserrat";
+    src: url("../fonts/montserrat-v12-latin-700.woff") format("woff"),
+         url("../fonts/montserrat-v12-latin-700.woff2") format("woff2");
+         font-weight: 700;
+}
+@font-face{
+    font-family: "montserrat";
+    src: url("../fonts/montserrat-v12-latin-regular.woff") format("woff"),
+         url("../fonts/montserrat-v12-latin-regular.woff2") format("woff2");
+         font-weight: 400;
+}
+@font-face{
+    font-family: "roboto";
+    src: url("../fonts/roboto-slab-v7-latin-regular.woff") format("woff"),
+         url("../fonts/roboto-slab-v7-latin-regular.woff2") format("woff2");
+}
 
 a{
     text-decoration: none;
@@ -14,6 +42,7 @@ a{
     padding: 44px 0;
 }
 .logo{
+    font-family: charm;
     color: #fed136;
     font-size: 26px;
 }
@@ -23,6 +52,8 @@ a{
     width: 486px;
 }
 .link a{
+    font-family: montserrat;
+    font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
     color: #222222;
@@ -43,12 +74,18 @@ a{
     align-items: center;
 }
 .title{
+    letter-spacing: -2px;
+    font-family: montserrat;
+    font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
     line-height: 75px;
     color: #222222;
 }
 .description{
+    letter-spacing: 0.6px;
+    font-family: aleo;
+    font-style: italic;
     font-size: 16px;
     color: #777777;
 }
@@ -91,10 +128,16 @@ a{
     background-image: url(../img/icon3.png);
 }
 .item-title{
+    letter-spacing: -1px;
+    font-family: montserrat;
+    font-weight: 700;
     color: #222222;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 .item-description{
+    line-height: 1.5;
+    font-family: roboto;
     color: #777777;
     font-size: 14px;
 }
@@ -128,6 +171,9 @@ a{
     
 }
 input, .your-message{
+    font-family: montserrat;
+    font-weight: 700;
+    color: #bbbbbb;
     box-sizing: border-box;
     width: 454px;
     border: 1px solid rgb(204, 204, 204);
@@ -148,6 +194,7 @@ input::placeholder, .your-message::placeholder{
 .your-message{
     height: 210px;
     padding-top: 18px;
+    resize: none;
 }
 .button-send{
     width: 240px;
@@ -158,8 +205,16 @@ input::placeholder, .your-message::placeholder{
     background-color: rgb(254, 209, 54);
     margin: 0 auto;
     color: #ffffff;
+    font-family: montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
 }
-
+:required:invalid:not(:placeholder-shown){
+    outline-color: #ff0000;
+}
+:required:valid:not(:placeholder-shown){
+    outline-color: #00ff00;
+}
   
 
 

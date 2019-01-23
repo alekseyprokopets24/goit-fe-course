@@ -234,15 +234,19 @@ a{
     transition: all 0.5s linear; 
 }
 .img-container:hover .overlay-buttons-line{
+    
+    transition: all 0.5s linear; 
+}
+.img-container:hover .overlay-buttons-line{
     opacity: 1;
     transition: all 1s linear;
 }
 .img-container{
     max-width: 380px;
-    position: relative;
+    
 }
 .card-img{
-    position: absolute;
+    position: relative;
     top: 0;
 }
 .overlay{
@@ -252,6 +256,8 @@ a{
     position: absolute;
 }
 .overlay-bg{
+    position: absolute;
+    top: 0;
     background: #95e1d3;
     height: 470px;
     width: 380px;
@@ -261,8 +267,6 @@ a{
 
 
 .overlay-buttons-line{
-    left: 68px;
-    top: 198px;
     position: absolute;
     display: flex;
     width: 228px;

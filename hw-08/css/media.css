@@ -1,0 +1,11 @@
+@media (max-width:320px){
+
+    .header{
+        background: url(../img/Vector\ Smart\ Object.png);
+        background-repeat: no-repeat;
+        height: 540px;
+    }
+    .share-your-holiday{
+        flex-direction: column;
+    }
+}
