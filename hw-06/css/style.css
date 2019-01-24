@@ -157,7 +157,6 @@ a{
     justify-content: space-between;
     width: 100%;
     margin-bottom: 84px;
-    
 }
 
 
@@ -224,49 +223,47 @@ a{
     text-transform: uppercase;
     color: #ffffff;   
 }
-.img-container:hover .card-img{
-    transform: translate(-10px, -10px);
+.card-img:hover{
     opacity: 0.1;
-    transition: all 0.5s linear;
+    transform: translate(-10px, -10px);
+}
+.bg{
+    position: absolute;
+    background: #95e1d3;
+    width: 380px;
+    height: 470px;
+}
+.img-container:hover{
+    transform: translate(-10px, -10px);
 }
 .img-container:hover .overlay{
-    transform: translate(-10px, -10px);
-    transition: all 0.5s linear; 
-}
-.img-container:hover .overlay-buttons-line{
-    
-    transition: all 0.5s linear; 
+    opacity: 0.9;
 }
 .img-container:hover .overlay-buttons-line{
     opacity: 1;
-    transition: all 1s linear;
 }
 .img-container{
-    max-width: 380px;
-    
+    width: 380px;
+    height: 470px;
+    position: relative;
+
 }
 .card-img{
-    position: relative;
-    top: 0;
+ 
 }
 .overlay{
     background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    height: 470px;
-    width: 380px;
     position: absolute;
-}
-.overlay-bg{
-    position: absolute;
-    top: 0;
-    background: #95e1d3;
-    height: 470px;
     width: 380px;
-    
+    height: 470px;
+    opacity: 0;
 }
-
-
 
 .overlay-buttons-line{
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
     display: flex;
     width: 228px;
