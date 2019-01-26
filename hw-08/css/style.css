@@ -3,7 +3,7 @@
     background: url(../img/Vector\ Smart\ Object.png)  no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 540px;
+    padding-bottom: 134px;
 }
 .log-and-sing{
     margin: 0 auto;
@@ -60,6 +60,7 @@
 }
 .share-your-holiday{
     text-align: center;
+    padding-bottom: 58px;
 }
 .card-list{
     display: flex;
@@ -76,9 +77,11 @@
 .card{
     position: relative;
     text-align: center;
-    width: 236px;
-    height: 230px;
+    width: 256px;
+    height: 266px;
+    
 }
+
 .card-img{
     margin-bottom: 20px;
 }
@@ -94,16 +97,16 @@
     font-family: "Roboto";
     font-weight: 300;
     color: #666666;
+    padding: 0 30px;
 }
 .card-icon{
-    height: 17px;
-    width: 17px;
+    width: 27px;
+    height: 27px;
     position: absolute;
-    bottom: 104px;
+    top: 84px;
     right: 54px;
     border: 4px solid #fff;
     border-radius: 50%;
-    padding: 10px 10px;
 }
 .card-icon-bg-1{
     background-color: rgb(255, 78, 80);

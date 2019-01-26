@@ -2,7 +2,7 @@
 @media (min-width:768px){
 
     .header{
-        height: 700px;
+        padding-bottom: 252px;
         
     }
     .top-header{
@@ -28,26 +28,48 @@
         font-size: 24px;
     }
     .center-header{
-        width: 492px;
+        width: 504px;
         margin: 0 auto;
     }
     .card-list{
         flex-direction: row;
-        width: 492px;
+        width: 512px;
         margin: 0 auto;
         flex-wrap: wrap;
         margin-bottom: 16px;
     }
-    .card:nth-child(2n+1){
-        padding-right: 20px;
-    }
+    
     .card:nth-child(1){
-        order: 1;
+        order: -1;
     }
     .card:nth-child(3){
-        order: 1;
+        order: -1;
     }
     .section-title{
         padding-bottom: 36px;
+    }
+    .share-your-holiday{
+        padding-bottom: 40px;
+    }
+}
+@media (min-width:1440px){
+    .top-header{
+        width: 940px;
+    }
+    .main-title{
+        font-size: 52px;
+    }
+    
+    .card-list{
+        width: 940px;
+    }
+    .card{
+        width: 220px;
+    }
+    .person-bio{
+        padding: 0 5px;
+    }
+    .share-your-holiday{
+        padding-bottom: 74px;
     }
 }
