@@ -1,11 +1,53 @@
-@media (max-width:320px){
+
+@media (min-width:768px){
 
     .header{
-        background: url(../img/Vector\ Smart\ Object.png);
-        background-repeat: no-repeat;
-        height: 540px;
+        height: 700px;
+        
     }
-    .share-your-holiday{
-        flex-direction: column;
+    .top-header{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 660px;
+        margin: 0 auto 110px;
+        padding: 50px 0;
+    }
+    
+    .site-name, .log-and-sing{
+        margin: 0;
+        padding: 0;
+    }
+    .main-title{
+        font-size: 52px;
+        margin-bottom: 40px;
+    }
+    .main-title-description{
+        margin-bottom: 40px;
+        font-size: 24px;
+    }
+    .center-header{
+        width: 492px;
+        margin: 0 auto;
+    }
+    .card-list{
+        flex-direction: row;
+        width: 492px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+    }
+    .card:nth-child(2n+1){
+        padding-right: 20px;
+    }
+    .card:nth-child(1){
+        order: 1;
+    }
+    .card:nth-child(3){
+        order: 1;
+    }
+    .section-title{
+        padding-bottom: 36px;
     }
 }

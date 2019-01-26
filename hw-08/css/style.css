@@ -1,5 +1,9 @@
 .header{
     text-align: center;
+    background: url(../img/Vector\ Smart\ Object.png)  no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
 }
 .log-and-sing{
     margin: 0 auto;
@@ -55,9 +59,12 @@
     margin-bottom: 20px;
 }
 .share-your-holiday{
-    display: flex;
-    align-items: center;
     text-align: center;
+}
+.card-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .section-title{
     font-family: "Montserrat";

@@ -58,12 +58,12 @@
 
         <form class="forms" method="get" id="form1">
             <div class="column-1">
-                <input required class="your-name" minlength="5" type="text" name="name" placeholder="your Name *">
+                <input required class="your-name" minlength="2" maxlength="60" type="text" name="name" placeholder="your Name *">
                 <input required class="your-email" type="email" name="email" placeholder="your e-mail *">
                 <input class="subject" type="text" name="subject" placeholder="subject">
             </div>
             <div class="column-2">
-                <textarea required class="your-message" name="message" placeholder="Your message *"></textarea>
+                <textarea required class="your-message" minlength="5" maxlength="150" name="message" placeholder="Your message *"></textarea>
 
             </div>
         </form>
