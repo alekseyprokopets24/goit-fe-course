@@ -1,0 +1,140 @@
+.header{
+    text-align: center;
+    background: url(../img/Vector\ Smart\ Object.png)  no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 134px;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    margin-bottom: 110px;
+}
+.log-and-sing{
+    margin-bottom: 100px;
+}
+.log-and-sing-button{
+    color: #fff;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    background: none;
+    border: none;
+    padding: 10px 16px;
+    border: 2px solid transparent;  
+}
+.log-and-sing-button:hover{
+    border: 2px solid #fff;
+    border-radius: 14px;
+}
+
+.find{
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 14px 50px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.site-name{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.main-title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.main-title-description{
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.share-your-holiday{
+    text-align: center;
+    padding-bottom: 58px;
+}
+.card-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-title{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 22px;
+    color: #333333;
+    padding: 70px 0 20px;
+}
+.card{
+    position: relative;
+    text-align: center;
+    width: 256px;
+    height: 266px;
+    
+}
+
+.card-img{
+    margin-bottom: 20px;
+}
+.person-name{
+    margin-bottom: 16px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+}
+.person-bio{
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #666666;
+    padding: 0 30px;
+}
+.card-icon{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 84px;
+    right: 54px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+.card-icon-bg-1{
+    background-color: rgb(255, 78, 80);
+}
+.card-icon-bg-2{
+    background: #ffa507;
+}
+.card-icon-bg-3{
+    background: #1cd7ad;
+}
+.card-icon-bg-4{
+    background: #4e73db;
+}
+.see-others{
+    color: #ff4e50;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding: 10px 72px;
+    background: none;
+    border: 2px solid rgb(255, 78, 80);
+    border-radius: 20px;
+}
+
+  
+

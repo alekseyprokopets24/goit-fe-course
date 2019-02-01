@@ -167,9 +167,7 @@ a{
 .forms{
     margin-bottom: 28px;
 }
-.column-2{
-    
-}
+
 input, .your-message{
     font-family: montserrat;
     font-weight: 700;
@@ -181,6 +179,7 @@ input, .your-message{
     padding-left: 20px;
     font-size: 14px;
     height: 52px;
+    outline: 2px solid rgb(255, 255, 255);
 }
 
 input::placeholder, .your-message::placeholder{
