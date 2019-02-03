@@ -14,7 +14,7 @@
 
     <div class="header">
         <nav class="nav">
-            <a href="" class="logo">Golden</a>
+            <a href="#" class="logo">Golden</a>
             <ul class="site-navigation">
                 <li class="link"><a href="#">Home</a></li>
                 <li class="link"><a href="#">Services</a></li>
@@ -25,10 +25,8 @@
         </nav>
     </div>
     <section class="services">
-        <div class="section-title">
-            <h2 class="title">Services</h2>
-            <p class="description">Proin iaculis purus consequat sem cure.</p>
-        </div>
+        <h2 class="title">Services</h2>
+        <p class="description">Proin iaculis purus consequat sem cure.</p>
         <ul class="item-list">
             <li class="item item-1">
                 <h4 class="item-title">E-Commerce</h4>
@@ -51,23 +49,22 @@
         </ul>
     </section>
     <section class="contact-us">
-        <div class="section-title">
-            <h2 class="title title-2">Contact us</h2>
-            <p class="description">Proin iaculis purus consequat sem cure.</p>
-        </div>
-
+        <h2 class="title title-2">Contact us</h2>
+        <p class="description">Proin iaculis purus consequat sem cure.</p>
         <form class="forms" method="get" id="form1">
-            <div class="column-1">
-                <input required class="your-name" minlength="2" maxlength="60" type="text" name="name" placeholder="your Name *">
-                <input required class="your-email" type="email" name="email" placeholder="your e-mail *">
-                <input class="subject" type="text" name="subject" placeholder="subject">
+            <div class="input-forms">
+                <div class="column-1">
+                    <input required class="your-name" minlength="2" maxlength="60" type="text" name="name" placeholder="your Name *">
+                    <input required class="your-email" type="email" name="email" placeholder="your e-mail *">
+                    <input class="subject" type="text" name="subject" placeholder="subject">
+                </div>
+                <div class="column-2">
+                    <textarea required class="your-message" minlength="5" maxlength="150" name="message" placeholder="Your message *"></textarea>
+                </div>
             </div>
-            <div class="column-2">
-                <textarea required class="your-message" minlength="5" maxlength="150" name="message" placeholder="Your message *"></textarea>
-
-            </div>
+            <button class="button-send" type="submit" form="form1" value="Submit">Send Message</button>
         </form>
-        <button class="button-send" type="submit" form="form1" value="Submit">Send Message</button>
+
 
     </section>
 

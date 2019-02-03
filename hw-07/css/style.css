@@ -61,12 +61,7 @@ a{
 .link a:hover{
     color: #fed136;
 }
-.section-title{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 80px;
-}
+
 .services{
     padding-bottom: 120px;
     display: flex;
@@ -88,6 +83,7 @@ a{
     font-style: italic;
     font-size: 16px;
     color: #777777;
+    margin-bottom: 80px;
 }
 .item-list{
     display: flex;
@@ -144,28 +140,32 @@ a{
 .contact-us{
     background-image: url(../img/Background.png);
     background-size: cover;
-    height: 676px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 90px 0;
 }
 .title-2{
     color: #ffffff;
-    padding-top: 110px;
+    letter-spacing: -1px;
 }
+
 .forms{
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.input-forms{
     width: 940px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 28px;
 }
 .column-1{
     display: flex;
     flex-direction: column;
     height: 210px;
     justify-content: space-between;
-}
-.forms{
-    margin-bottom: 28px;
 }
 
 input, .your-message{
