@@ -1,0 +1,78 @@
+@media (min-width:320px){
+    .log-and-sing{
+        margin-bottom: 130px;
+    }
+}
+@media (min-width:768px){
+    .site-name{
+        order: -1;
+    }
+    .header{
+        padding-bottom: 252px;
+        
+    }
+    .top-header{
+        
+        width: 660px;
+        margin: 0 auto 110px;
+        padding: 50px 0;
+    }
+    
+    .site-name, .log-and-sing{
+        margin: 0;
+        padding: 0;
+    }
+    .center-header .main-title{
+        font-size: 52px;
+        margin-bottom: 40px;
+    }
+    .center-header .main-title-description{
+        margin-bottom: 40px;
+        font-size: 24px;
+    }
+    .center-header{
+        width: 504px;
+        margin: 0 auto;
+    }
+    .card-list{
+       
+        width: 512px;
+        margin: 0 auto;
+       
+        margin-bottom: 16px;
+    }
+    
+    .item:nth-child(1){
+        order: -1;
+    }
+    .item:nth-child(3){
+        order: -1;
+    }
+    .section-title{
+        padding-bottom: 36px;
+    }
+    .share-your-holiday{
+        padding-bottom: 40px;
+    }
+}
+@media (min-width:1440px){
+    .top-header{
+        width: 940px;
+    }
+    .main-title{
+        font-size: 52px;
+    }
+    
+    .card-list{
+        width: 940px;
+    }
+    .item{
+        width: 220px;
+    }
+    .item .person-bio{
+        padding: 0 5px;
+    }
+    .share-your-holiday{
+        padding-bottom: 74px;
+    }
+}
