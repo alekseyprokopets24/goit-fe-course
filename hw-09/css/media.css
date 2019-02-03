@@ -7,8 +7,8 @@
     .site-name{
         order: -1;
     }
-    .header{
-        padding-bottom: 252px;
+    body .header{
+        padding: 0 0 252px;
         
     }
     .top-header{
@@ -35,10 +35,8 @@
         margin: 0 auto;
     }
     .card-list{
-       
-        width: 512px;
+        max-width: 512px;
         margin: 0 auto;
-       
         margin-bottom: 16px;
     }
     
@@ -48,23 +46,23 @@
     .item:nth-child(3){
         order: -1;
     }
-    .section-title{
+    .share-your-holiday .section-title{
         padding-bottom: 36px;
     }
-    .share-your-holiday{
+    main .share-your-holiday{
         padding-bottom: 40px;
     }
 }
-@media (min-width:1440px){
-    .top-header{
+@media (min-width:1200px){
+    .header .top-header{
         width: 940px;
     }
-    .main-title{
+    .center-header .main-title{
         font-size: 52px;
     }
     
-    .card-list{
-        width: 940px;
+    .share-your-holiday .card-list{
+        min-width: 940px;
     }
     .item{
         width: 220px;
