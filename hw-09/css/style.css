@@ -127,6 +127,9 @@
     border: 2px solid rgb(255, 78, 80);
     border-radius: 20px;
 }
-
+.center-header{
+    width: 294px;
+    margin: 0 auto;
+}
   
 

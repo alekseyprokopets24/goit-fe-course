@@ -11,6 +11,9 @@
         padding: 0 0 252px;
         
     }
+    .center-header{
+        width: 492px;
+    }
     .top-header{
         
         width: 660px;
@@ -30,10 +33,7 @@
         margin-bottom: 40px;
         font-size: 24px;
     }
-    .center-header{
-        width: 504px;
-        margin: 0 auto;
-    }
+    
     .card-list{
         max-width: 512px;
         margin: 0 auto;

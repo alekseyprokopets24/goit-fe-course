@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,24 +18,38 @@
     <header class="header">
         <nav class="nav">
             <a href="#" class="nav__logo">MoGo</a>
-            <ul class="nav__items-list">
-                <li class="nav__item"><a href="#">about</a></li>
-                <li class="nav__item"><a href="#">service</a></li>
-                <li class="nav__item"><a href="#">work</a></li>
-                <li class="nav__item"><a href="#">blog</a></li>
-                <li class="nav__item"><a href="#">contact</a></li>
-            </ul>
+            <div class="nav__navigation">
+                <ul class="nav__items-list">
+                    <li class="nav__item"><a href="#">about</a></li>
+                    <li class="nav__item"><a href="#">service</a></li>
+                    <li class="nav__item"><a href="#">work</a></li>
+                    <li class="nav__item"><a href="#">blog</a></li>
+                    <li class="nav__item"><a href="#">contact</a></li>
+                </ul>
+                <div class="nav__buttons-list">
+                    <button class="nav__button">
+                        <svg class="button__icon">
+                            <use href="img/icons/sprite.svg#icon_buy"></use>
+                        </svg>
+                    </button>
+                    <button class="nav__button">
+                        <svg class="button__icon">
+                            <use href="img/icons/sprite.svg#icon_search"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
         </nav>
-        <h2 class="header__title">Creative Template</h2>
+        <h2 class="header__subtitle">Creative Template</h2>
         <h1 class="header__title">Welcome to MoGo</h1>
         <button class="header__button">Learn more</button>
     </header>
     <main class="main">
         <section class="section">
-            <h4 class="section__title">we work with</h4>
+            <h4 class="section__subtitle">we work with</h4>
             <h3 class="section__title">amazing services</h3>
 
-            <ul class="item-list">
+            <ul class="items-list">
                 <li class="item item__bg-img-1">
                     <h4 class="item__title">Photography</h4>
                     <p class="item__discr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
@@ -74,32 +90,41 @@
             </ul>
         </section>
         <section class="section">
-            <h4 class="section__title">who we are</h4>
+            <h4 class="section__subtitle">who we are</h4>
             <h3 class="section__title">meet our team</h3>
             <p class="section__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <div class="card-list">
+            <div class="cards-list">
                 <div class="card">
                     <div class="card__bg"></div>
-                    <div class="img-container">
+                    <div class="card__container">
                         <div class="overlay-buttons-line">
                             <a href="#" class="overlay__button">
-                                <img src="img/facebook.png" alt="">
+                                <svg class="social__icon">
+                                    <use href="img/icons/sprite.svg#icon_fb"></use>
+                                </svg>
                             </a>
                             <a href="#" class="overlay__button">
-                                <img src="img/twitter.png" alt="">
+                                <svg class="social__icon">
+                                    <use href="img/icons/sprite.svg#icon_tw"></use>
+                                </svg>
                             </a>
                             <a href="#" class="overlay__button">
-                                <img src="img/pinterest.png" alt="">
+                                <svg class="social__icon">
+                                    <use href="img/icons/sprite.svg#icon_pt"></use>
+                                </svg>
                             </a>
                             <a href="#" class="overlay__button">
-                                <img src="img/instagram.png" alt="">
+                                <svg class="social__icon">
+                                    <use href="img/icons/sprite.svg#icon_inst"></use>
+                                </svg>
                             </a>
                         </div>
                         <div class="overlay"></div>
-                        <img src="img/card1.png" alt="" class="card-img">
+                        <img class="card__img" srcset="img/photos/card1.jpg 380w, img/photos/card1@2x.jpg 760w"
+                            src="IMG/photos/card1.jpg" sizes="380px" alt="">
 
 
                     </div>
@@ -108,7 +133,7 @@
                 </div>
                 <div class="card">
                     <div class="card__bg"></div>
-                    <div class="img-container">
+                    <div class="card__container">
                         <div class="overlay-buttons-line">
                             <a href="#" class="overlay__button">
                                 <img src="img/facebook.png" alt="">
@@ -124,16 +149,15 @@
                             </a>
                         </div>
                         <div class="overlay"></div>
-                        <img src="img/card2.png" alt="" class="card-img">
-
-
+                        <img class="card__img" srcset="img/photos/card2.jpg 380w, img/photos/card2@2x.jpg 760w"
+                            src="IMG/photos/card2.jpg" sizes="380px" alt="">
                     </div>
                     <h4 class="person__name">Christopher Campbell</h4>
                     <p class="person__position">Branding/UX design</p>
                 </div>
                 <div class="card">
                     <div class="card__bg"></div>
-                    <div class="img-container">
+                    <div class="card__container">
                         <div class="overlay-buttons-line">
                             <a href="#" class="overlay__button">
                                 <img src="img/facebook.png" alt="">
@@ -149,7 +173,8 @@
                             </a>
                         </div>
                         <div class="overlay"></div>
-                        <img src="img/card3.png" alt="" class="card-img">
+                        <img class="card__img" srcset="img/photos/card3.jpg 380w, img/photos/card3@2x.jpg 760w"
+                            src="IMG/photos/card3.jpg" sizes="380px" alt="">
                     </div>
                     <h4 class="person__name">Michael Fertig</h4>
                     <p class="person__position">Developer</p>
