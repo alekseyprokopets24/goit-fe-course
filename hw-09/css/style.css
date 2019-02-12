@@ -1,12 +1,12 @@
-.header{
+header{
     text-align: center;
     background: url(../img/Vector\ Smart\ Object.png)  no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 22px 0 134px;
-    
+    margin: 0;
 }
-.top-header{
+.navbar{
     margin: 0px auto 40px;
     
 }
@@ -52,6 +52,7 @@
     margin-bottom: 20px;
     font-family: "Montserrat";
     font-weight: bold;
+    letter-spacing: -1px;
 }
 .main-title-description{
     font-family: "Roboto";
@@ -60,17 +61,21 @@
     font-size: 18px;
     margin-bottom: 20px;
 }
-.share-your-holiday{
+section{
     text-align: center;
-    padding-bottom: 58px;
+    padding: 70px 0 58px;
 }
 
 .section-title{
+    letter-spacing: -0.5px;
     font-family: "Montserrat";
     font-weight: bold;
     font-size: 22px;
     color: #333333;
-    padding: 70px 0 20px;
+    margin-bottom:  20px;
+}
+.card-list{
+    margin: 0 auto;
 }
 .card-list .item{
     position: relative;
@@ -127,7 +132,7 @@
     border: 2px solid rgb(255, 78, 80);
     border-radius: 20px;
 }
-.center-header{
+.heading{
     width: 294px;
     margin: 0 auto;
 }

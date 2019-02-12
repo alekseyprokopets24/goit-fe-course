@@ -2,36 +2,42 @@
     .log-and-sing{
         margin-bottom: 130px;
     }
+    .main-title-description{
+        width: 226px;
+    }
 }
 @media (min-width:768px){
     .site-name{
         order: -1;
     }
-    body .header{
+    body header{
         padding: 0 0 252px;
         
     }
-    .header .center-header{
+    header .heading{
         width: 504px;
     }
-    .top-header{
+    header .navbar{
         
         width: 660px;
         margin: 0 auto 110px;
         padding: 50px 0;
     }
-    
+    .container .see-others{
+        padding: 12px 24px;
+    }
     .site-name, .log-and-sing{
         margin: 0;
         padding: 0;
     }
-    .center-header .main-title{
+    .heading .main-title{
         font-size: 52px;
         margin-bottom: 40px;
     }
-    .center-header .main-title-description{
+    .heading .main-title-description{
         margin-bottom: 40px;
         font-size: 24px;
+        width: 100%;
     }
     
     .card-list{
@@ -46,22 +52,22 @@
     .item:nth-child(3){
         order: -1;
     }
-    .share-your-holiday .section-title{
-        padding-bottom: 36px;
+    section .section-title{
+        margin-bottom: 36px;
     }
-    main .share-your-holiday{
+    main section{
         padding-bottom: 40px;
     }
 }
 @media (min-width:1200px){
-    .header .top-header{
+    header .navbar{
         width: 940px;
     }
-    .center-header .main-title{
+    .heading .main-title{
         font-size: 52px;
     }
     
-    .share-your-holiday .card-list{
+    section .card-list{
         min-width: 940px;
     }
     .item{
@@ -70,7 +76,7 @@
     .item .person-bio{
         padding: 0 5px;
     }
-    .share-your-holiday{
+    section{
         padding-bottom: 74px;
     }
 }
